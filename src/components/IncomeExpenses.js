@@ -1,8 +1,9 @@
 import React from 'react'
+import classes from './IncomeExpenses.module.css'
 
 export const IncomeExpenses = () => {
     return (
-        <div className="inc-exp-container">
+        <div className={classes.incexp}>
             <div>
                 <h4>Income</h4>
                 <p id='money-plus' class='money plus'>+0.00</p>
